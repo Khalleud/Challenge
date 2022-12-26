@@ -1,0 +1,16 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
+    "strictPropertyInitialization": false
+  },
+  "typedocOptions": {
+    "entryPoints": ["src/*.ts", "src/models/OrganisationUnit.ts", "src/utils/*.ts"],
+    "out": "docs"
+},
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
+}

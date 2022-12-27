@@ -3,7 +3,7 @@
 
 The purpose of the app is to implement "calculateMembershipFee" function that returns tenancy deposit fee respecting constraints that are defined in the statement.
 
-We also define the model of the oraganisation structure that of the client
+In this app, we also define model of the organisation structure as described in the statement
 
 
 
@@ -33,27 +33,26 @@ We also define the model of the oraganisation structure that of the client
 
 ## Run App
 - fill the 'calculate_membership_fee' function in **src/index.ts** 
-- compile with   ```console
+- compile with   ```
                  $ npm compile
                  ```
-    or   ```console
+    or   ```
          $ npx tsc
          ```
-- run with    '''
-              $ node build/src/index.js
-              ''' 
+- run with   ```
+         $ node build/src/index.js
+         ```
 ## Run tests
 
-- run   '''
-        $ npm test
-        '''
+- run  ```
+         $ npm test
+         ```
 
 ## Future iterations
 
 
-- handle errors inside validation function to throw clear messages about validation error
-- change config class to interface
-- update classes to handle unit methods and properties more specifically
-
-
+- Handle errors inside validation function to throw clear messages
+- Change config class from class to interface
+- Update classes to handle unit methods and properties more specifically
+- Update documentation
 

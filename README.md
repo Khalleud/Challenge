@@ -1,4 +1,4 @@
-#Challenge for Flatfair Interview
+# Challenge for Flatfair Interview
 ## App Description
 
 The purpose of the app is to implement "calculateMembershipFee" function that returns tenancy deposit fee respecting constraints that are defined in the statement.
@@ -27,32 +27,33 @@ We also define the model of the oraganisation structure that of the client
 ## Install App
 
 - clone app
-- run   ```console
+- run   ```
         $ npm install
         ```
 
 ## Run App
 - fill the 'calculate_membership_fee' function in **src/index.ts** 
-- compile with  ```console
-                $ npm compile
-                ```
-    or  ```console
-        $ npx tsc
-        ```
-- run with '''console
-           $ node build/src/index.js
+- compile with   ```console
+                 $ npm compile
+                 ```
+    or   ```console
+         $ npx tsc
+         ```
+- run with    '''
+              $ node build/src/index.js
+              ''' 
 ## Run tests
 
-- run '''console
-      $ npm test
-      '''
+- run   '''
+        $ npm test
+        '''
 
 ## Future iterations
 
 
 - handle errors inside validation function to throw clear messages about validation error
 - change config class to interface
-- detail classes to handle unit methods and properties more specifically
+- update classes to handle unit methods and properties more specifically
 
 
 

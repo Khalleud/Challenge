@@ -1,6 +1,7 @@
 import {OrganisationUnit} from './OrganisationUnit';
 
 export class Division extends OrganisationUnit {
+    public unitType: String = 'Division';
   /*public areas : Area[];
     public attachedClient : Client;
 

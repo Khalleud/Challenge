@@ -4,8 +4,6 @@ import {calculate_fee_with_VAT, convertToPence} from './utils/functions';
 import {ValidationError} from './utils/ValidationError';
 import {validate_inputs} from './validation_function';
 
-
-
 /**
  * 
  * @param rent_amount number in pound of the rent_amount

@@ -7,6 +7,7 @@ export class OrganisationUnit {
   public config: OrganisationUnitConfig | null;
   public parentUnit: OrganisationUnit | null;
   public childrenUnits: OrganisationUnit[] | null;
+  public unitType: String ;
 
   constructor(name: string, config: OrganisationUnitConfig | null = null) {
     this.name = name;

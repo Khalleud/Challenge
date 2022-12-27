@@ -1,6 +1,9 @@
 import {OrganisationUnit} from './OrganisationUnit';
 
 export class Area extends OrganisationUnit {
+
+  public unitType: String = 'Area';
+
   /*public childrenBranches : Branch[] | null;
   public parentDivision: Division | null ;
   constructor (name: string, config: OrganisationUnitConfig ){

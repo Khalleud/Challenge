@@ -32,7 +32,7 @@ We also define the model of the oraganisation structure that of the client
         ```
 
 ## Run App
-
+- fill the 'calculate_membership_fee' function in **src/index.ts** 
 - compile with  ```console
                 $ npm compile
                 ```
@@ -49,11 +49,10 @@ We also define the model of the oraganisation structure that of the client
 
 ## Future iterations
 
-- test validation function and utils functions
-- handle errors inside validation function to output clear messages about validation error
-- add type in classes to distinguish
+
+- handle errors inside validation function to throw clear messages about validation error
 - change config class to interface
-- detail classes to handle unit methods and attributes more specifically
+- detail classes to handle unit methods and properties more specifically
 
 
 

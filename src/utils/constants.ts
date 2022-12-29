@@ -10,6 +10,6 @@ export const MAX_RENT_AMOUNT_PER_MONTH = 8660;
 
 export const VAT = 20 / 100;
 
-export const PENCE_UNIT = 106.59646;
+export const PENCE_UNIT = 100;
 
 export const MINIMUM_MEMBERSHIP_FEE = 120;

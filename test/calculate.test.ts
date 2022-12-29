@@ -22,7 +22,7 @@ describe('Testing calculate_membership_fee function', () => {
 
   it('when organisation unit has not a config and rent amout is lower than 120', () => {
   const branch = new Branch('branch', new OrganisationUnitConfig(false, 0));
-  expect(calculate_membership_fee(80, rentPeriod.WEEK, branch)).toBe(15349);
+  expect(calculate_membership_fee(80, rentPeriod.WEEK, branch)).toBe(14400);
 });
   it('when organisation unit has not a config and the period is a month', () => {
     const branch = new Branch('branch', new OrganisationUnitConfig(false, 0));
